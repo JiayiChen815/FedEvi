@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python main_seg_al.py --dataset Polyp --fl_method FedEvi --deterministic True --seed 3 --max_round 200 --gamma 0.99 --annealing_step 10

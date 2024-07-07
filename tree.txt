@@ -1,0 +1,60 @@
+***/Dataset/Polyp
+├── CVC-ClinicDB
+│   ├── image
+│   └── mask
+├── CVC-ColonDB
+│   ├── image
+│   └── mask
+├── ETIS
+│   ├── image
+│   └── mask
+└── Kvasir
+    ├── image
+    └── mask
+
+
+***/Dataset/Prostate
+├── BIDMC
+├── BMC
+├── HK
+├── I2CVB
+├── RUNMC
+└── UCL
+
+
+***/Dataset/Fundus
+/media/userdisk1/jychen/Dataset/Fundus
+├── BinRushed
+│   ├── image
+│   │   └── Magrabia
+│   │       ├── MagrabiaMale
+│   │       └── MagrabiFemale
+│   └── mask
+│       └── Magrabia
+│           ├── MagrabiaMale
+│           └── MagrabiFemale
+├── Drishti_GS
+│   ├── image
+│   └── mask
+├── Margabia
+│   ├── image
+│   │   └── BinRushed
+│   │       ├── BinRushed1
+│   │       ├── BinRushed2
+│   │       ├── BinRushed3
+│   │       └── BinRushed4
+│   └── mask
+│       └── BinRushed
+│           ├── BinRushed1
+│           ├── BinRushed2
+│           ├── BinRushed3
+│           └── BinRushed4
+├── REFUGE_Canon
+│   ├── image
+│   └── mask
+├── REFUGE_Zeiss
+│   ├── image
+│   └── mask
+└── RIM-ONE-r3
+    ├── image
+    └── mask

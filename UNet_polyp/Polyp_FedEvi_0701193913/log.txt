@@ -1,0 +1,1 @@
+[19:39:13.929] Namespace(annealing_step=10, base_lr=0.001, batch_size=8, dataset='Polyp', deterministic=True, fl_method='FedEvi', gamma=0.99, kl_weight=0.01, max_epoch=2, max_round=200, num_classes=2, ratio=1.0, seed=3)
