@@ -6,7 +6,7 @@ import numpy as np
 import pdb
 import matplotlib.pyplot as plt
 import os
-import torchvisualizationion.transforms.functional as F
+import torchvision.transforms.functional as F
 import cv2
 
 def cal_dice_hd95(pred, label):

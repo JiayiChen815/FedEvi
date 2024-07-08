@@ -4,7 +4,7 @@ import torch.nn as nn
 import pdb
 import torch
 import torch.nn.functional as F
-from utils.loss_func import EDL_Dice_Loss, Dice_Loss
+from utils.loss_func import EDL_Dice_Loss
 import copy
 import matplotlib.pyplot as plt
 

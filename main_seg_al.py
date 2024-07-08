@@ -179,7 +179,7 @@ if __name__ == '__main__':
                 u_dis[client_idx, round_idx], u_data[client_idx, round_idx] = scoring_func(global_model, local_models[client_idx], local_val_loaders[client_idx], client_idx=client_idx, args=args)
 
 
-            client_weight += args.ratio * u_dis[:, round_idx] / u_data[:, round_idx]
+            client_weight = args.ratio * u_dis[:, round_idx] / u_data[:, round_idx]
             client_weight /= client_weight.sum()
             client_weight = np.clip(client_weight, a_min=1e-3, a_max=None)
             global_model = FedAvg(global_model, local_models, client_weight, bn=bn)
